@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Quotify</title>
+  <meta name="description" content="Random Quote Generator">
+  <meta name="author" content="Sarwech">
+
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://use.fontawesome.com/d3762e452d.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<div class="container">
+	  <div class="row">
+	    <button id="getQuote" class="btn btn-raised btn-primary">NEW</button>
+	    <button class="btn btn-raised btn-primary"><a id="shareTweet" target="_blank" href="https://twitter.com/intent/tweet?text="><i class="fa fa-twitter" style="color: white"></i></a></button>
+	    <h2 class="text-muted" id="time"></h2>
+	  </div>
+	  <div class="row">
+	    <p></p>
+	    <h1 id="quotes" class="quotes"></h1>
+	  </div>
+	  <hr>
+	  <p><a href="https://github.com/sarwech/mealplanner">Sarwech Shar</a></p>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
